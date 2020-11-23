@@ -7,6 +7,8 @@
     <main>
         <div class="wrap container-md">
           <MainIntroduce />
+          <RoomSlider />
+          <RoomTour />
         </div>
     </main>
   
@@ -15,11 +17,15 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import MainIntroduce from './components/MainIntroduce.vue';
+import RoomSlider from './components/RoomSlider.vue';
+import RoomTour from './components/RoomTour.vue';
 export default {
   name: "App",
   components: {
     Navbar,
     MainIntroduce,
+    RoomSlider,
+    RoomTour,
   },
 };
 </script>
