@@ -127,6 +127,11 @@ export default {
 }
 
 @media (min-width: 768px) {
+
+  .main_product_text {
+    height: 100%;
+  }
+
   .main_product_text h2 {
     font-size: 50px;
     margin-bottom: 30px;

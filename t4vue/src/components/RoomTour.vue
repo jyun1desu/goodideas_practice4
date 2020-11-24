@@ -29,3 +29,31 @@ export default{
     }
 }
 </script>
+
+<style>
+.room_features {
+    display: none;
+}
+
+@media (min-width: 576px) {
+
+    .room_features {
+        display: flex;
+    }
+
+    .room_slider  {
+        display: none;
+    }
+
+    .room_tour {
+        padding: 0;
+    }
+
+    .room_tour .text {
+        padding: 15px;
+    }
+
+}
+
+</style>
+
