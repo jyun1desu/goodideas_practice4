@@ -1,15 +1,13 @@
 <template>
     <div class="information">
         <nav>
-            <template 
-            v-for="link in guideLinks"
-            :key="link.title">
             <a 
+            v-for="link in guideLinks"
+            :key="link.title"
             :href="link.link">
             {{link.title}}
             </a>
             <span>|</span>
-            </template>
         </nav>
         <div class="copyrights">&copy; COPYRIGHT 2012. ALL RIGHT RESERVED.</div>
     </div>

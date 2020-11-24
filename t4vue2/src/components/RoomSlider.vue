@@ -1,5 +1,5 @@
 <template>
-    <div class="room_slider">
+  <div class="room_slider">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
             <div class="carousel-item active">
@@ -48,55 +48,54 @@
 </template>
 
 <script>
-export default{
-}
+export default {};
 </script>
 
 <style>
-    .room_tour {
-    height: 100%;
+.room_tour {
+  height: 100%;
+  padding: 15px;
+  background-color: #4b3a33;
+}
+
+.bedroom {
+  background-color: #241b18;
+}
+
+.room_tour img {
+  width: 100%;
+}
+
+.room_tour .text {
+  padding: 15px 0 0 0;
+}
+
+.room_tour h3 {
+  color: #e2b241;
+  font-family: "Oswald", sans-serif;
+}
+
+.room_tour p {
+  margin-bottom: 0;
+  color: white;
+  text-align: justify;
+}
+
+@media (min-width: 576px) {
+  .room_features {
+    display: flex;
+  }
+
+  .room_slider {
+    display: none;
+  }
+
+  .room_tour {
+    padding: 0;
+  }
+
+  .room_tour .text {
     padding: 15px;
-    background-color: #4b3a33;
-    }
-
-    .bedroom {
-    background-color: #241b18;
-    }
-
-    .room_tour img {
-    width: 100%;
-    }
-
-    .room_tour .text {
-    padding: 15px 0 0 0;
-    }
-
-    .room_tour h3 {
-    color: #e2b241;
-    font-family: "Oswald", sans-serif;
-    }
-
-    .room_tour p {
-    margin-bottom: 0;
-    color: white;
-    text-align: justify;
-    }
-
-    @media (min-width: 576px) {
-    .room_features {
-        display: flex;
-    }
-
-    .room_slider {
-        display: none;
-    }
-
-    .room_tour {
-        padding: 0;
-    }
-
-    .room_tour .text {
-        padding: 15px;
-    }
-    }
+  }
+}
 </style>

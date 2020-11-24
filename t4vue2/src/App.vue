@@ -45,9 +45,10 @@
   };
 </script>
 
-<style>
+<style lang="scss">
+@import '~bootstrap/scss/bootstrap';
 .wrap {
-  padding: 0;
+  padding: 0 !important;
   max-width: 1050px;
 }
 

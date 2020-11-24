@@ -36,6 +36,7 @@ export default {
         {title:'BLOG',link:'#'},
         {title:'CONTACT',link:'#'}
       ],
+      visible: true,
     }
   },
 }
